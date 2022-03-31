@@ -1,0 +1,25 @@
+{
+  "name": "graphql-blog",
+  "version": "1.0.0",
+  "description": "GraphQL blog",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pavel Nagorsky",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.5",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "validator": "^13.7.0"
+  }
+}
